@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anjali Tripathi — Geopolitical Risk Analyst CV</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #0D2240;
+    --crimson: #9B1C1C;
+    --gold: #B8923A;
+    --charcoal: #2C2C2C;
+    --mist: #F5F4F0;
+    --mid: #777777;
+    --rule-lt: #E0DDD8;
+  }
+  body { background: #E2E0DA; font-family: 'EB Garamond', Georgia, serif; color: var(--charcoal); print-color-adjust: exact; }
+  .page { max-width: 900px; margin: 40px auto; background: #FAFAF8; box-shadow: 0 6px 48px rgba(0,0,0,0.17); }
+
+  /* HEADER */
+  .hd { padding: 54px 64px 38px; border-bottom: 3px solid var(--crimson); }
+  .name { font-family: 'Cormorant Garamond', serif; font-size: 56px; font-weight: 700; letter-spacing: 3px; color: var(--navy); text-transform: uppercase; line-height: 1; margin-bottom: 10px; }
+  .tagline { font-size: 15px; font-style: italic; color: var(--crimson); letter-spacing: 0.3px; margin-bottom: 22px; }
+  .contact { display: flex; flex-wrap: wrap; align-items: center; font-size: 13.5px; gap: 4px 0; color: var(--mid); }
+  .contact a { color: var(--navy); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  .pipe { margin: 0 9px; color: var(--gold); }
+
+  /* BODY */
+  .body { padding: 0 64px 56px; }
+
+  /* SECTION */
+  .sec { margin-top: 32px; }
+  .sec-h {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 11px; font-weight: 700; letter-spacing: 3.8px; text-transform: uppercase;
+    color: var(--navy); padding-bottom: 7px;
+    border-bottom: 1.5px solid var(--crimson);
+    margin-bottom: 18px;
+  }
+
+  /* PROFILE */
+  .profile { font-size: 15.5px; line-height: 1.78; color: var(--charcoal); text-align: justify; }
+
+  /* ENTRY */
+  .entry { margin-bottom: 20px; }
+  .erow { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
+  .etitle { font-family: 'Cormorant Garamond', serif; font-size: 17.5px; font-weight: 700; color: var(--navy); }
+  .edate { font-size: 13px; color: var(--gold); font-style: italic; white-space: nowrap; margin-left: 14px; }
+  .esub { font-size: 14px; font-style: italic; color: var(--crimson); margin-bottom: 2px; }
+  .eloc { color: var(--mid); font-style: normal; }
+  .egrade { font-size: 13px; color: var(--mid); margin-bottom: 6px; }
+
+  /* BULLETS */
+  ul.b { list-style: none; padding: 0; margin-top: 5px; }
+  ul.b li { font-size: 14.5px; line-height: 1.65; color: var(--charcoal); padding-left: 18px; position: relative; margin-bottom: 4px; }
+  ul.b li::before { content: "–"; position: absolute; left: 0; color: var(--crimson); font-weight: 600; }
+
+  /* SKILLS GRID */
+  .sg { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 28px; }
+  .si { font-size: 14px; color: var(--charcoal); padding: 5px 0; border-bottom: 0.5px solid var(--rule-lt); display: flex; align-items: center; gap: 8px; }
+  .sd { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
+
+  /* CERTS */
+  .ct { width: 100%; border-collapse: collapse; }
+  .ct tr { border-bottom: 0.5px solid var(--rule-lt); }
+  .ct tr:last-child { border-bottom: none; }
+  .ct td { padding: 8px 0; vertical-align: top; }
+  .cn { font-size: 14.5px; color: var(--charcoal); width: 52%; padding-right: 16px; }
+  .ci { font-size: 13.5px; color: var(--mid); font-style: italic; width: 38%; padding-right: 16px; }
+  .cy { font-size: 13px; color: var(--gold); width: 10%; text-align: right; white-space: nowrap; }
+
+  /* LANG */
+  .lang { display: flex; gap: 40px; font-size: 15px; }
+  .ln { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 700; color: var(--navy); margin-right: 5px; }
+  .ll { font-style: italic; color: var(--mid); font-size: 14px; }
+
+  /* FOOTER */
+  .ft { border-top: 1px solid var(--navy); margin: 32px 64px 0; padding: 14px 0 52px; text-align: center; font-size: 12.5px; color: var(--mid); font-style: italic; }
+
+  @media print {
+    body { background: white; }
+    .page { box-shadow: none; margin: 0; max-width: 100%; }
+    .hd { padding: 36px 48px 28px; }
+    .body { padding: 0 48px 40px; }
+    .ft { margin: 28px 48px 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="hd">
+    <div class="name">Anjali Tripathi</div>
+    <div class="tagline">Geopolitical Risk Analyst &nbsp;·&nbsp; International Security &amp; Trade Policy &nbsp;·&nbsp; Conflict, Governance &amp; Development</div>
+    <div class="contact">
+      <span>New Delhi, India</span><span class="pipe">|</span>
+      <a href="mailto:ahnjhali@gmail.com">ahnjhali@gmail.com</a><span class="pipe">|</span>
+      <span>+91 9773861423</span><span class="pipe">|</span>
+      <a href="https://www.linkedin.com/in/anjalitripathi1304/" target="_blank">linkedin.com/in/anjalitripathi1304</a><span class="pipe">|</span>
+      <a href="https://ahnjhali.github.io/anjali-portfolio/" target="_blank">Portfolio</a>
+    </div>
+  </header>
+
+  <div class="body">
+
+    <div class="sec">
+      <div class="sec-h">Profile</div>
+      <p class="profile">Postgraduate policy analyst with an M.A. in Conflict Management &amp; Development (Banaras Hindu University, First Division with Distinction, CGPA 8.10/10). Specialised in geopolitical risk, trade and economic policy, conflict analysis, and energy geopolitics. Brings an applied understanding of how political events — wars, sanctions, elections, resource competition, and supply chain disruptions — shape economic outcomes, market dynamics, and strategic risk. Trained in PMESII-PT, PESTLE, scenario building, and political economy frameworks. Experienced in translating complex geopolitical and macroeconomic data into structured briefs, scenario analyses, and policy assessments. Strong writer with a track record of producing evidence-based, decision-relevant outputs. Actively seeking roles in geopolitical risk advisory, trade and economic research, international security analysis, and strategic consulting.</p>
+    </div>
+
+    <div class="sec">
+      <div class="sec-h">Core Competencies</div>
+      <div class="sg">
+        <div class="si"><span class="sd"></span>Geopolitical &amp; Political Risk Analysis</div>
+        <div class="si"><span class="sd"></span>Policy Brief, SITREP &amp; Research Report Writing</div>
+        <div class="si"><span class="sd"></span>Trade Policy, Sanctions &amp; Economic Coercion</div>
+        <div class="si"><span class="sd"></span>Quantitative Data Analysis (Excel, R basics)</div>
+        <div class="si"><span class="sd"></span>Energy Geopolitics &amp; Supply Chain Risk</div>
+        <div class="si"><span class="sd"></span>Data Visualisation: Power BI, Tableau</div>
+        <div class="si"><span class="sd"></span>Conflict Analysis — PMESII-PT, DIME, PESTLE</div>
+        <div class="si"><span class="sd"></span>Academic Literature &amp; Open-Source Synthesis</div>
+        <div class="si"><span class="sd"></span>Scenario Building &amp; Strategic Foresight</div>
+        <div class="si"><span class="sd"></span>Process Tracing &amp; Comparative Institutional Analysis</div>
+        <div class="si"><span class="sd"></span>Macroeconomic &amp; Geoeconomic Research</div>
+        <div class="si"><span class="sd"></span>Stakeholder Mapping &amp; Political Economy Analysis</div>
+        <div class="si"><span class="sd"></span>South Asia Security &amp; Foreign Policy</div>
+        <div class="si"><span class="sd"></span>Zotero, Mendeley, Google Workspace, Canva</div>
+        <div class="si"><span class="sd"></span>Forced Migration, State Fragility &amp; Development</div>
+        <div class="si"><span class="sd"></span>Languages: English (Full Professional) · Hindi (Professional)</div>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-h">Professional Experience</div>
+
+      <div class="entry">
+        <div class="erow"><span class="etitle">Self-Directed Research — UPSC Civil Services Examination</span><span class="edate">Jul 2024 – Mar 2026</span></div>
+        <div class="esub">New Delhi</div>
+        <ul class="b">
+          <li>Developed deep, structured knowledge of geopolitics, international relations theory, global trade, energy economics, constitutional frameworks, and public administration through intensive engagement with primary policy documents and multilateral reports</li>
+          <li>Produced regular analytical assessments tracking conflicts, sanctions regimes, trade policy shifts, commodity markets, and supply chain disruptions — directly analogous to professional risk briefing outputs</li>
+          <li>Trained in interpreting macroeconomic indicators, inflationary pressures, monetary policy dynamics, and their interaction with geopolitical events (elections, wars, energy shocks)</li>
+          <li>Developed rigorous writing and synthesis skills through structured time-constrained outputs — directly transferable to client-facing briefs, issue notes, and scenario reports</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="erow"><span class="etitle">Research Intern</span><span class="edate">Nov 2022 – Dec 2022</span></div>
+        <div class="esub">Office of Durgesh Pathak, MLA <span class="eloc">· New Delhi (Hybrid)</span></div>
+        <ul class="b">
+          <li>Conducted data-driven political risk analysis — including voter demographics, constituency-level data, and policy outreach indicators — to inform strategic decision-making</li>
+          <li>Prepared structured research databases and documentation ensuring data integrity and analytical consistency</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="erow"><span class="etitle">Research Analyst (Part-Time)</span><span class="edate">Aug 2022 – Sep 2022</span></div>
+        <div class="esub">Tech4Planet Solutions Private Limited <span class="eloc">· Remote</span></div>
+        <ul class="b">
+          <li>Analysed public policy datasets and governance indicators; identified strategic trends and policy implications for senior stakeholders in a consulting context</li>
+          <li>Monitored legislative and regulatory developments across sectors; produced concise research summaries integrating evidence-based assessment with strategic recommendations</li>
+          <li>Synthesised large quantitative and qualitative datasets into structured, client-facing outputs</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="erow"><span class="etitle">Student Coordinator</span><span class="edate">Sep 2021 – Apr 2022</span></div>
+        <div class="esub">Navadrishti Association, Gargi College <span class="eloc">· New Delhi</span></div>
+        <ul class="b">
+          <li>Coordinated institutional communications and academic events for inclusion-focused governance initiatives; facilitated multi-stakeholder collaboration</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="erow"><span class="etitle">Social Media Manager — Volunteer</span><span class="edate">Aug 2020 – Apr 2021</span></div>
+        <div class="esub">GirlUp Delhi, UN Foundation</div>
+        <ul class="b">
+          <li>Designed human rights and gender equity advocacy campaigns aligned with UN SDG 5 and SDG 16; achieved 40% growth in digital engagement</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-h">Research &amp; Analytical Work</div>
+
+      <div class="entry">
+        <div class="erow"><span class="etitle">Dissertation — Primary Field Research on Forced Migration</span><span class="edate">2023–2024</span></div>
+        <div class="esub">Malaviya Centre for Peace Research, Banaras Hindu University</div>
+        <ul class="b">
+          <li><em>"The Era of the Homeless: A Perpetual Exodus"</em> — Conducted ethnographic fieldwork at Rohingya refugee camps in Delhi, applying qualitative and mixed-methods research to analyse gendered post-conflict migration patterns and statelessness</li>
+          <li>Produced evidence-based policy recommendations on India's refugee governance framework, drawing on comparative analysis of international refugee law, UNHCR frameworks, and South Asian state responses</li>
+          <li>Synthesised primary fieldwork data with secondary literature on conflict–migration–development linkages, demonstrating applied research methodology and policy analysis</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="erow"><span class="etitle">Independent Analysis — Geopolitics, Energy &amp; Supply Chains</span><span class="edate">2024–2025</span></div>
+        <div class="esub">Published via LinkedIn and independent research</div>
+        <ul class="b">
+          <li>Authored structured analytical notes on Iran–Israel conflict dynamics; Strait of Hormuz chokepoint vulnerability and implications for global fertiliser supply chains, food security, and India's agricultural economy — connecting geopolitical events to downstream economic and sectoral outcomes</li>
+          <li>Applies PESTLE, PMESII-PT, and political economy frameworks to produce concise, decision-relevant assessments of international security, energy, and trade policy developments</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-h">Education</div>
+
+      <div class="entry">
+        <div class="erow"><span class="etitle">M.A. — Conflict Management &amp; Development</span><span class="edate">Dec 2022 – Dec 2024</span></div>
+        <div class="esub">Malaviya Centre for Peace Research, Banaras Hindu University <span class="eloc">· Varanasi</span></div>
+        <div class="egrade">CGPA: 8.10/10 &nbsp;·&nbsp; First Division with Distinction (76.95%) &nbsp;·&nbsp; SGPAs: 7.40 → 8.80 → 9.00 → 9.00</div>
+        <ul class="b">
+          <li>Key Coursework: Peace &amp; Conflict Studies; Conflict &amp; Violence Management; Gender, Conflict &amp; Development; Peace &amp; Conflict in South Asia; Environment, Conflict &amp; Development; Methodological Issues in Conflict Analysis; International Conflict Resolution; Democracy &amp; Development</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="erow"><span class="etitle">B.A. — Political Science &amp; History</span><span class="edate">Jan 2019 – Jul 2022</span></div>
+        <div class="esub">Gargi College, University of Delhi <span class="eloc">· New Delhi</span></div>
+        <div class="egrade">CGPA: 7.455/10 &nbsp;·&nbsp; First Division (70.82%)</div>
+        <ul class="b">
+          <li>Key Coursework: Introduction to International Relations; Conflict &amp; Peace Building; Comparative Government &amp; Politics; Democracy &amp; Governance; Indian Government &amp; Politics; Administration &amp; Public Policy</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="erow"><span class="etitle">Higher Secondary Certificate — Humanities (CBSE)</span><span class="edate">2019</span></div>
+        <div class="esub">Army Public School, Hisar</div>
+        <div class="egrade">92.00% &nbsp;·&nbsp; Political Science 99% &nbsp;·&nbsp; English Core 98% &nbsp;·&nbsp; Psychology 87% &nbsp;·&nbsp; History 80%</div>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="sec-h">Certifications &amp; Training</div>
+      <table class="ct">
+        <tr><td class="cn">Global Diplomacy: Diplomacy in the Modern World</td><td class="ci">University of London &amp; SOAS (Coursera)</td><td class="cy">2024</td></tr>
+        <tr><td class="cn">Indian Diaspora: Interdisciplinary Perspectives</td><td class="ci">Sri Guru Nanak Dev Khalsa College · MEA, Govt. of India</td><td class="cy">2024</td></tr>
+        <tr><td class="cn">Conflict Analysis</td><td class="ci">United States Institute of Peace (USIP)</td><td class="cy">2021</td></tr>
+        <tr><td class="cn">Cultural Synergy</td><td class="ci">United States Institute of Peace (USIP)</td><td class="cy">2021</td></tr>
+        <tr><td class="cn">Fostering Growth &amp; Inclusion in Asia's Cities</td><td class="ci">Asian Development Bank Institute (ADBI)</td><td class="cy">2021</td></tr>
+        <tr><td class="cn">Climate Change Negotiations &amp; Health</td><td class="ci">UN CC:Learn</td><td class="cy">2021</td></tr>
+        <tr><td class="cn">The Holocaust — Nazi Germany: Ideology, Jews &amp; the World</td><td class="ci">Tel Aviv University &amp; Yad Vashem (Coursera)</td><td class="cy">2023</td></tr>
+        <tr><td class="cn">Writing &amp; Publishing a Research Paper</td><td class="ci">Udemy</td><td class="cy">2021</td></tr>
+      </table>
+    </div>
+
+    <div class="sec">
+      <div class="sec-h">Languages</div>
+      <div class="lang">
+        <div><span class="ln">English</span><span class="ll">— Full Professional Proficiency</span></div>
+        <div><span class="ln">Hindi</span><span class="ll">— Professional Working Proficiency</span></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="ft">References available upon request &nbsp;·&nbsp; Portfolio: ahnjhali.github.io/anjali-portfolio &nbsp;·&nbsp; LinkedIn: linkedin.com/in/anjalitripathi1304</div>
+
+</div>
+</body>
+</html>
